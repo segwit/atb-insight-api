@@ -28,7 +28,7 @@
   "atbcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "atbcore-lib": "^0.0.1",
+    "atbcore-lib": "^0.0.2",
     "bitcore-message": "^1.0.1",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
