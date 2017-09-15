@@ -29,6 +29,7 @@
   "dependencies": {
     "async": "*",
     "atbcore-lib": "^0.0.2",
+    "bignumber.js": "^4.0.4",
     "bitcore-message": "^1.0.1",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",

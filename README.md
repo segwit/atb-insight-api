@@ -301,6 +301,30 @@ Where "xxx" can be:
   /atb-insight-api/utils/estimatefee[?nbBlocks=2]
 ```
 
+### Statistic Methods
+
+```
+  /atb-insight-api/statistic/available-supply?format=plaintext
+```
+
+response[format=plaintext]:
+```
+50006267.33297584
+```
+
+
+response:
+```
+  {
+      total_supply: String
+  }
+
+  eg
+
+  {
+      total_supply: "50006267.33297584"
+  }
+```
 
 ## Web Socket API
 The web socket API is served using [socket.io](http://socket.io).
