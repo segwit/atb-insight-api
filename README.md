@@ -301,7 +301,7 @@ Where "xxx" can be:
   /atb-insight-api/utils/estimatefee[?nbBlocks=2]
 ```
 
-### Statistic Methods
+### Statistic Available Supply Method
 
 ```
   /atb-insight-api/statistic/available-supply?format=plaintext
@@ -323,6 +323,39 @@ response:
 
   {
       total_supply: "50006267.33297584"
+  }
+```
+
+### Statistic Circulation Supply Method
+
+Edit `atbcore-node.json`:
+
+```
+"atb-insight-api": {
+    "statisticExceptCirculationAddresses": [<String>, ...]
+}
+```
+
+```
+  /atb-insight-api/statistic/circulation-supply?format=plaintext
+```
+
+response[format=plaintext]:
+```
+50006267.33297584
+```
+
+
+response:
+```
+  {
+      circulation_supply: String
+  }
+
+  eg
+
+  {
+      circulation_supply: "38198753.00910031"
   }
 ```
 
